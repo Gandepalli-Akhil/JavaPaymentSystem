@@ -6,7 +6,7 @@ interface Payment{
 
 class CreditCard implements Payment{
 	private int balance=20000;
-	/* manam deposit create cheyadam ledu so,balance ni ikkada set chesam some value*/
+	
 	public void pay(int amount)
 	{
 	  if(amount>0){
@@ -93,4 +93,5 @@ public class AbstractionPaymentStatus{
 		}
 }
 }
+
 }
